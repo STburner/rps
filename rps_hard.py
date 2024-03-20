@@ -8,7 +8,7 @@ def rock_paper_scissors():
         print("2. Paper")
         print("3. Scissors")
 
-        ur_move = input("Enter your choice, 1, 2, or 3")
+        ur_move = input("Enter your choice, 1, 2, or 3: ")
         if ur_move not in ['1', '2', '3']:
             print("Come on, enter something valid, aka, 1, 2, 3")
 
@@ -41,7 +41,7 @@ def rock_paper_scissors():
             print("Computer wins, take the L")
         play_again = input("Do you want to play again, yes or no? (please say no)")
         if (play_again.lower()!="yes"):
-            print("You're not done yet")
+            print("You're done, get reckd")
             break
 
 rock_paper_scissors()
